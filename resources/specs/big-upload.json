@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "pattern": "resources/a/*",
+      "target": "CliTestsSpec/flat_recursive/",
+      "flat": "true",
+      "recursive": "true"
+    },
+    {
+      "pattern": "resources/a/*",
+      "target": "CliTestsSpec/flat_nonrecursive/",
+      "flat": "true",
+      "recursive": "false"
+    },
+    {
+      "pattern": "resources/a/*",
+      "target": "CliTestsSpec/nonflat_recursive/",
+      "flat": "false",
+      "recursive": "true"
+    },
+    {
+      "pattern": "resources/a/*",
+      "target": "CliTestsSpec/nonflat_nonrecursive/",
+      "flat": "false",
+      "recursive": "false"
+    },
+    {
+      "pattern": "resources/a/*",
+      "target": "CliTestsSpec/props/",
+      "props": "p1=v1;p2=v2"
+    },
+    {
+      "pattern": "resources/a/(.*)",
+      "target": "CliTestsSpec/regexp/",
+      "regexp": "true"
+    },
+    {
+      "pattern": "resources/a/a1.in",
+      "target": "CliTestsSpec/rename/a1.out",
+      "recursive": "false",
+      "flat": "true"
+    }
+  ]
+}
