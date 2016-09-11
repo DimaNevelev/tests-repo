@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "aql": {
+        "items.find": {
+          "repo": "CliTestsSpec",
+          "$or": [
+            {
+              "$and": [
+                {
+                  "path": {
+                    "$match": "."
+                  },
+                  "name": {
+                    "$match": "a1.in"
+                  }
+                }
+              ]
+            },
+            {
+              "$and": [
+                {
+                  "path": {
+                    "$match": "*"
+                  },
+                  "name": {
+                    "$match": "a1.in"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "target": "out/download/aql/"
+    },
+    {
+      "aql": {
+        "items.find": {
+          "repo": "CliTestsSpec",
+          "$or": [
+            {
+              "$and": [
+                {
+                  "path": {
+                    "$match": "."
+                  },
+                  "name": {
+                    "$match": "*"
+                  }
+                }
+              ]
+            },
+            {
+              "$and": [
+                {
+                  "path": {
+                    "$match": "*"
+                  },
+                  "name": {
+                    "$match": "*"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "target": "out/download/aql_flat/",
+      "flat": "true"
+    },
+    {
+      "pattern": "CliTestsSpec/nonflat_recursive/resources/a/*",
+      "target": "out/download/flat_recursive/",
+      "flat": "true",
+      "recursive": "true"
+    },
+    {
+      "pattern": "CliTestsSpec/nonflat_recursive/resources/a/*",
+      "target": "out/download/flat_nonrecursive/",
+      "flat": "true",
+      "recursive": "false"
+    },
+    {
+      "pattern": "CliTestsSpec/nonflat_recursive/resources/a/*",
+      "target": "out/download/nonflat_recursive/",
+      "flat": "false",
+      "recursive": "true"
+    },
+    {
+      "pattern": "CliTestsSpec/nonflat_recursive/resources/a/*",
+      "target": "out/download/nonflat_nonrecursive/",
+      "flat": "false",
+      "recursive": "false"
+    },
+    {
+      "pattern": "CliTestsSpec/nonflat_recursive/resources/a/*",
+      "target": "",
+      "flat": "true",
+      "recursive": "false"
+    },
+    {
+      "pattern": "CliTestsSpec/nonflat_recursive/resources/a/a1.in",
+      "target": "out/download/simple/",
+      "flat": "true",
+      "recursive": "false"
+    },
+    {
+      "pattern": "CliTestsSpec/nonflat_recursive/resources/a/a1.in",
+      "target": "out/download/rename/a1.out",
+      "flat": "true",
+      "recursive": "false"
+    },
+    {
+      "pattern": "CliTestsSpec/nonflat_recursive/resources/(a)/a1.in",
+      "target": "out/download/simple_placeholder/{1}/",
+      "flat": "true",
+      "recursive": "false"
+    },
+    {
+      "pattern": "CliTestsSpec/flat_recursive/(*).in",
+      "target": "out/download/pattern_placeholder/{1}/",
+      "flat": "true",
+      "recursive": "false"
+    },
+    {
+      "pattern": "CliTestsSpec/*",
+      "target": "out/download/properties/",
+      "flat": "false",
+      "recursive": "true",
+      "props": "p1=v1;p2=v2"
+    }
+  ]
+}
