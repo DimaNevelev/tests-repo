@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "../resources/*",
+      "target": "CliTestsSpec/NEGATIVE_SHOULD_NOT_BE_CREATED/no-files-match/",
+      "flat": "true",
+      "recursive": "false"
+    }
+  ]
+}

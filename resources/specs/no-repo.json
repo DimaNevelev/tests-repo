@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "../resources/*",
+      "target": "BAD_REPO_NAME/NEGATIVE_SHOULD_NOT_BE_CREATED/no-repo-match/",
+      "flat": "true",
+      "recursive": "true"
+    }
+  ]
+}
