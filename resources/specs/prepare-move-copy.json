@@ -1,0 +1,82 @@
+{
+  "files": [
+    {
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "aql-a1/a/",
+      "flat": "false",
+      "recursive": "true"
+    },
+{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "aql-all/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/flat_recursive_source/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/3_only_flat_recursive_source/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/flat_nonrecursive_source/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/nonflat_recursive_source/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/nonflat_nonrecursive_source/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/no_target/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/simple_soure/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/rename_source/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/simple_placeholder_source/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/pattern_placeholder_soure/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/properties_soure/a/",
+      "flat": "false",
+      "recursive": "true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/b*",
+      "target": "move-delete-repo/properties_soure/a/",
+      "flat": "false",
+      "recursive": "true",
+      "props": "searchMe=true"
+    },{
+      "pattern": "cli-reg-test/downloadTestResources/a/*",
+      "target": "move-delete-repo/defaults_recursive_nonFlat_soure/a/",
+      "flat": "false",
+      "recursive": "true"
+    }
+  ]
+}

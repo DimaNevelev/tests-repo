@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "cli-reg-test/downloadTestResources/*",
+      "target": "/Users/diman/sandbox/workspace/blocked-folder/",
+      "flat": "false",
+      "recursive": "true"
+    }
+  ]
+}

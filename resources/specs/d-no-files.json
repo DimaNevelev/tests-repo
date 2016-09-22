@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "cli-reg-test/NO_FILES_WILL_BE_FOUND/*",
+      "target": "out/download/no_files_found/",
+      "flat": "false",
+      "recursive": "true"
+    }
+  ]
+}

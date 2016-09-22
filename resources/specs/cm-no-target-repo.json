@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "cli-reg-test/downloadTestResources/",
+      "target": "NO_SUCH_REPO/spec-copy-test/should-not-be-created/",
+      "flat": "false",
+      "recursive": "true"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "../../resources/(*)/(*).in",
+      "target": "CliTestsSpec/upload_test/pattern-plavceholder/{1}/{2}.in",
+      "recursive": "true",
+      "flat": "true"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "cli-reg-test/downloadTestResources/a/(a1.i.*)",
+      "target": "out/download/default_regexp_this_folder_should_not_be_created/",
+      "flat": "false",
+      "recursive": "true"
+    }
+  ]
+}

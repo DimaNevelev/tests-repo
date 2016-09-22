@@ -32,7 +32,7 @@
           ]
         }
       },
-      "target": "out/download/aql/"
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/aql/"
     },
     {
       "aql": {
@@ -66,79 +66,79 @@
           ]
         }
       },
-      "target": "out/download/aql_flat/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/aql_flat/",
       "flat": "true"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/a/*",
-      "target": "out/download/flat_recursive/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/flat_recursive/",
       "flat": "true",
       "recursive": "true"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/a/*3*",
-      "target": "out/download/3_only_flat_recursive/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/3_only_flat_recursive/",
       "flat": "true",
       "recursive": "true"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/a/*",
-      "target": "out/download/flat_nonrecursive/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/flat_nonrecursive/",
       "flat": "true",
       "recursive": "false"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/a/*",
-      "target": "out/download/nonflat_recursive/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/nonflat_recursive/",
       "flat": "false",
       "recursive": "true"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/a/*",
-      "target": "out/download/nonflat_nonrecursive/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/nonflat_nonrecursive/",
       "flat": "false",
       "recursive": "false"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/a/*",
-      "target": "",
+      "target": "/DRY_RUN_SHOULD_NOT_BE_CREATED/",
       "flat": "true",
       "recursive": "false"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/a/a1.in",
-      "target": "out/download/simple/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/simple/",
       "flat": "true",
       "recursive": "false"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/a/a1.in",
-      "target": "out/download/rename/a1.out",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/rename/a1.out",
       "flat": "true",
       "recursive": "false"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/(a)/a1.in",
-      "target": "out/download/simple_placeholder/{1}/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/simple_placeholder/{1}/",
       "flat": "true",
       "recursive": "false"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/(*).in",
-      "target": "out/download/pattern_placeholder/{1}/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/pattern_placeholder/{1}/",
       "flat": "true",
       "recursive": "false"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/*",
-      "target": "out/download/properties/",
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/properties/",
       "flat": "false",
       "recursive": "true",
       "props": "searchMe=true"
     },
     {
       "pattern": "cli-reg-test/downloadTestResources/*",
-      "target": "out/download/defaults_recursive_nonFlat/"
+      "target": "out/download/DRY_RUN_SHOULD_NOT_BE_CREATED/defaults_recursive_nonFlat/"
     }
   ]
 }

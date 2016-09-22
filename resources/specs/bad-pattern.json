@@ -1,8 +1,0 @@
-{
-  "files": [
-    {
-      "pattern": "/BAD_PATH/*",
-      "target": "CliTestsSpec/NEGATIVE_SHOULD_NOT_BE_CREATED/regex_false/"
-    }
-  ]
-}

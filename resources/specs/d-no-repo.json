@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "NO_SUCH_REPO/downloadTestResources/*",
+      "target": "out/download/properties/",
+      "flat": "false",
+      "recursive": "true"
+    }
+  ]
+}

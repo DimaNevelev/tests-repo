@@ -1,0 +1,11 @@
+{
+  "files": [
+    {
+      "pattern": "cli-reg-test/downloadTestResources/*",
+      "target": "out/download/properties/",
+      "flat": "false",
+      "recursive": "true",
+        "props": "NO_PROPS=true"
+    }
+  ]
+}
