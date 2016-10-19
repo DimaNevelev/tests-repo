@@ -141,7 +141,7 @@
       "target": "out/download/defaults_recursive_nonFlat/"
     },
     {
-      "pattern": "${down-repo}/downloadTestResources/*",
+      "pattern": "${REPO}/downloadTestResources/*",
       "target": "out/download/variable_defaults_recursive_nonFlat/"
     }
   ]
