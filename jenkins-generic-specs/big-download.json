@@ -139,6 +139,10 @@
     {
       "pattern": "cli-reg-test/downloadTestResources/*",
       "target": "out/download/defaults_recursive_nonFlat/"
+    },
+    {
+      "pattern": "${down-repo}/downloadTestResources/*",
+      "target": "out/download/variable_defaults_recursive_nonFlat/"
     }
   ]
 }
