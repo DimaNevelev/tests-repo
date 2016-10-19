@@ -49,6 +49,12 @@
       "target": "CliTestsSpec/upload_test/3-only/",
       "recursive": "true",
       "flat": "true"
+    },
+    {
+      "pattern": "resources/a/a1.in",
+      "target": "CliTestsSpec/upload_test/variables/${JOB_NAME}/${BUILD_NUMBER}/",
+      "recursive": "true",
+      "flat": "true"
     }
   ]
 }
