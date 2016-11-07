@@ -124,8 +124,8 @@
       "recursive": "false"
     },
     {
-      "pattern": "cli-reg-test/downloadTestResources/(*).in",
-      "target": "out/download/pattern_placeholder/{1}/",
+      "pattern": "cli-reg-test/downloadTestResources/(*/*).in",
+      "target": "out/download/pattern_placeholder/{1}.in",
       "flat": "true",
       "recursive": "false"
     },
