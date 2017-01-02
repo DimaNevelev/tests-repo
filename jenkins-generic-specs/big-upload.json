@@ -52,7 +52,7 @@
     },
     {
       "pattern": "resources/a/a1.in",
-      "target": "CliTestsSpec/.upload_test/variables/${JOB_NAME}/${BUILD_NUMBER}/",
+      "target": "CliTestsSpec/.upload_test/variables_build-name_build-number/${JOB_NAME}/${BUILD_NUMBER}/",
       "recursive": "true",
       "flat": "true"
     },
