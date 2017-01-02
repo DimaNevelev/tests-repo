@@ -35,7 +35,7 @@
     },
     {
       "pattern": "resources/a/(a1.i.*)",
-      "target": "CliTestsSpec/.upload_test/regexp/",
+      "target": "CliTestsSpec/.upload_test/regexp-a1-only/",
       "regexp": "true"
     },
     {
