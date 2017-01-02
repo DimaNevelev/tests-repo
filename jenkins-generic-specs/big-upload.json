@@ -58,7 +58,7 @@
     },
     {
       "pattern": "${WORKSPACE}/resources/a/",
-      "target": "CliTestsSpec/.upload_test/full-path-wildcards/",
+      "target": "CliTestsSpec/.upload_test/full-path-recursive-flat-wildcards/",
       "recursive": "true",
       "flat": "true"
     },
@@ -98,7 +98,7 @@
     },
     {
       "pattern": "resources/./((?!.*c/).*)",
-      "target": "CliTestsSpec/.upload_test/regexp-not-c/",
+      "target": "CliTestsSpec/.upload_test/regexp-nonflat-not-c/",
       "regexp": "true",
       "flat": "false"
     }
