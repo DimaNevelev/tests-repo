@@ -2,59 +2,91 @@
   "files": [
     {
       "pattern": "resources/a/*",
-      "target": "CliTestsSpec/upload_test/flat_recursive/",
+      "target": "CliTestsSpec/.upload_test/flat_recursive/",
       "flat": "true",
       "recursive": "true"
     },
     {
       "pattern": "resources/a/*",
-      "target": "CliTestsSpec/upload_test/defaults_flat_recursive/"
+      "target": "CliTestsSpec/.upload_test/defaults_flat_recursive/"
     },
     {
       "pattern": "resources/a/*",
-      "target": "CliTestsSpec/upload_test/flat_nonrecursive/",
+      "target": "CliTestsSpec/.upload_test/flat_nonrecursive/",
       "flat": "true",
       "recursive": "false"
     },
     {
       "pattern": "resources/a/*",
-      "target": "CliTestsSpec/upload_test/nonflat_recursive/",
+      "target": "CliTestsSpec/.upload_test/nonflat_recursive/",
       "flat": "false",
       "recursive": "true"
     },
     {
       "pattern": "resources/a/*",
-      "target": "CliTestsSpec/upload_test/nonflat_nonrecursive/",
+      "target": "CliTestsSpec/.upload_test/nonflat_nonrecursive/",
       "flat": "false",
       "recursive": "false"
     },
     {
       "pattern": "resources/a/*",
-      "target": "CliTestsSpec/upload_test/props/",
+      "target": "CliTestsSpec/.upload_test/props/",
       "props": "p1=v1;p2=v2"
     },
     {
       "pattern": "resources/a/(a1.i.*)",
-      "target": "CliTestsSpec/upload_test/regexp/",
+      "target": "CliTestsSpec/.upload_test/regexp/",
       "regexp": "true"
     },
     {
       "pattern": "resources/a/a1.in",
-      "target": "CliTestsSpec/upload_test/rename/a1.out",
+      "target": "CliTestsSpec/.upload_test/rename/a1.out",
       "recursive": "false",
       "flat": "true"
     },
     {
       "pattern": "resources/*3*",
-      "target": "CliTestsSpec/upload_test/3-only/",
+      "target": "CliTestsSpec/.upload_test/3-only/",
       "recursive": "true",
       "flat": "true"
     },
     {
       "pattern": "resources/a/a1.in",
-      "target": "CliTestsSpec/upload_test/variables/${JOB_NAME}/${BUILD_NUMBER}/",
+      "target": "CliTestsSpec/.upload_test/variables/${JOB_NAME}/${BUILD_NUMBER}/",
       "recursive": "true",
       "flat": "true"
+    },
+    {
+      "pattern": "${WORKSPACE}/resources/a/",
+      "target": "CliTestsSpec/.upload_test/full-path-wildcards/",
+      "recursive": "true",
+      "flat": "true"
+    },
+    {
+      "pattern": "${WORKSPACE}/resources/a/*",
+      "target": "CliTestsSpec/.upload_test/full-path-wildcards/",
+      "recursive": "true",
+      "flat": "true"
+    },
+    {
+      "pattern": "${WORKSPACE}/resources/a/.*1\..*",
+      "target": "CliTestsSpec/.upload_test/full-path-regex-all-1-recursive/",
+      "recursive": "true",
+      "flat": "true",
+      "regexp": "true"
+    },
+    {
+      "pattern": "${WORKSPACE}/resources/a/.*1\..*",
+      "target": "CliTestsSpec/.upload_test/full-path-regex-all-1-nonrecursive/",
+      "recursive": "false",
+      "flat": "true",
+      "regexp": "true"
+    },
+    {
+      "pattern": "resources/./((?!.*c/).*)",
+      "target": "CliTestsSpec/.upload_test/regexp-not-c/",
+      "regexp": "true",
+      "flat": "false"
     }
   ]
 }
