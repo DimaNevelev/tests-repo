@@ -124,34 +124,6 @@
       "flat": "true"
     },
     {
-      "pattern": "${WORKSPACE}/resources/a/.*1\..*",
-      "target": "CliTestsSpec/.upload_test/full-path-regex-all-1-recursive/",
-      "recursive": "true",
-      "flat": "true",
-      "regexp": "true"
-    },
-    {
-      "pattern": "${WORKSPACE}/resources/a/.*1\..*",
-      "target": "CliTestsSpec/.upload_test/nonflat-full-path-regex-all-1-recursive/",
-      "recursive": "true",
-      "flat": "false",
-      "regexp": "true"
-    },
-    {
-      "pattern": "resources/a/.*1\..*",
-      "target": "CliTestsSpec/.upload_test/nonflat-relative-regex-all-1-recursive/",
-      "recursive": "true",
-      "flat": "false",
-      "regexp": "true"
-    },
-    {
-      "pattern": "${WORKSPACE}/resources/a/.*1\..*",
-      "target": "CliTestsSpec/.upload_test/full-path-regex-all-1-nonrecursive/",
-      "recursive": "false",
-      "flat": "true",
-      "regexp": "true"
-    },
-    {
       "pattern": "resources/./((?!.*c/).*)",
       "target": "CliTestsSpec/.upload_test/regexp-nonflat-not-c/",
       "regexp": "true",
