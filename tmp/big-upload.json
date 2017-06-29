@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "resources/a/*",
+      "pattern": "resources/a/*",    
       "target": "CliTestsSpec/.upload_test/flat_recursive_wildcard/",
       "flat": "true",
       "recursive": "true"
